@@ -235,7 +235,7 @@ class PaginatedDataTable(_DataTable, ft.UserControl):
                                     ),
                                     ft.Row(
                                         controls=[
-                                            self.v_num_of_row_changer_field, ft.Text("rows per page", font_family=MAIN_FONT_REGULAR)
+                                            self.v_num_of_row_changer_field, ft.Text("rows per page")
                                         ]
                                     ),
                                     self.v_count,
