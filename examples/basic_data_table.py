@@ -7,7 +7,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from CustomComponentFactory import CustomComponentFactory, ColumnSpec, TableType
 
 def main(page: ft.Page):
-    page.title = "Hello, Flet!"
 
     columns = [
         ColumnSpec("NAME", 'name'),
