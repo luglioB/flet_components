@@ -9,7 +9,7 @@ from threading import Thread
 import queue
 from datetime import datetime
 
-from utils.PauseableThread import PauseableThread
+from ..utils.PauseableThread import PauseableThread
 
 T = TypeVar('T')
 

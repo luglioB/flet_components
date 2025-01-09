@@ -2,11 +2,11 @@
 from typing import TypeVar, List
 from enum import Enum
 
-from components.PaginatedDatatable import PaginatedDataTable
-from components.LazyPaginatedDatatable import LazyPaginatedDataTable
-from components.BasicDataTable import BasicDataTable
-from components._DataTable import ColumnSpec
-from components.Form import ItemSpec, Form
+from .components.PaginatedDatatable import PaginatedDataTable
+from .components.LazyPaginatedDatatable import LazyPaginatedDataTable
+from .components.BasicDataTable import BasicDataTable
+from .components._DataTable import ColumnSpec
+from .components.Form import ItemSpec, Form
 
 T = TypeVar('T')
 
